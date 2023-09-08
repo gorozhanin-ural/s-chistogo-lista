@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.content-section {
+  box-sizing: border-box;
+  width: 360px;
+  margin: auto;
+}
+.content-section__subtitle {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
+.content-section__list-item {
+  margin-left: 16px;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #f5f5f5;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.header {
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo-image {
+  box-sizing: border-box;
+  width: 79px;
+  height: 16px;
+}
+
+.header__menu-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 12px;
+}
+
+.header__menu-item {
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.header__menu-link {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.header__menu-item_active {
+  border-bottom: none;
+}
+
+.cover {
+  padding: 7px 24px 30px 21px;
+  background-image: url("../images/cover.svg");
+  background-repeat: no-repeat;
+  background-size: 95% auto;
+  background-position: right;
+}
+
+.cover__title {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+}
+
+.intro {
+  padding: 0 20px 37px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.intro__heading {
+  display: flex;
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  justify-content: space-between;
+}
+
+.intro__date {
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.35;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.reasons {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.how-to {
+  box-sizing: border-box;
+  padding: 40px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.cards-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  box-sizing: border-box;
+}
+
+.card {
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  box-sizing: border-box;
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  box-sizing: border-box;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.card__author-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.35;
+  box-sizing: border-box;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  box-sizing: border-box;
+}
+
+.card__title {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.35;
+  box-sizing: border-box;
+}
+
+.card__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35;
+  box-sizing: border-box;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+  color: #f5f5f5;
+}
+
+.card_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.footer {
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #fee42a;
+}
+
+.footer__copy {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35;
+  box-sizing: border-box;
+}
+
+.footer__links {
+  display: flex;
+  list-style: none;
+  column-gap: 16px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.footer__link {
+  color: #f5f5f5;
+  text-decoration: none;
+}
