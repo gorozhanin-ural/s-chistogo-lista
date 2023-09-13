@@ -9,4 +9,4 @@
 * БЭМ
 
 -----
-[Demo](https://s-chistogo-lista.na4u.ru/)
+[Demo](https://s-chistogo-lista.nothingisreal.ru/)
